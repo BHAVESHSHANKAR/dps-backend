@@ -1,16 +1,20 @@
-Flask==2.0.1
-Flask-CORS==3.0.10
-pandas==1.3.0
-scikit-learn==0.24.2
-numpy==1.21.0
-Werkzeug==2.0.1
-click==8.0.1
-itsdangerous==2.0.1
-Jinja2==3.0.1
-MarkupSafe==2.0.1
-python-dateutil==2.8.2
-pytz==2021.1
-six==1.16.0
-threadpoolctl==2.2.0
-joblib==1.0.1
-scipy==1.7.0 
+Flask>=3.0.3
+Flask-CORS>=5.0.0
+pandas>=2.2.3
+scikit-learn>=1.5.2
+numpy>=2.1.2
+Werkzeug>=3.0.4
+click>=8.1.7
+itsdangerous>=2.2.0
+Jinja2>=3.1.4
+MarkupSafe>=3.0.2
+python-dateutil>=2.9.0.post0
+pytz>=2024.2
+tzdata>=2024.1
+six==1.16.0  # Remove if not needed
+threadpoolctl>=3.5.0
+joblib>=1.4.2
+scipy>=1.14.1
+setuptools>=80.9.0
+wheel>=0.45.1
+Cython>=3.0.11  # Remove if not building from source
